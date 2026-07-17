@@ -77,14 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Flowdesk — AI assistant for busy professionals" },
+      {
+        name: "description",
+        content:
+          "Flowdesk is an AI-powered productivity assistant with a smart email generator, task planner, and research assistant for professionals and job seekers.",
+      },
+      { name: "author", content: "Flowdesk" },
+      { property: "og:title", content: "Flowdesk — AI assistant for busy professionals" },
+      {
+        property: "og:description",
+        content:
+          "Draft professional emails, plan your day, and summarize any article or job post — all in one clean AI workspace.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
