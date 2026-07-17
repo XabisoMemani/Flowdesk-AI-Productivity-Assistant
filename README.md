@@ -24,7 +24,7 @@ Flowdesk includes three core features:
 
 - **Lovable** – AI app builder used to generate and deploy the front end from natural language prompts
 - **React + Tailwind CSS** – Front end framework and styling
-- **GPT / Gemini API** – Language model powering the email, planning, and summarising features
+- **Gemini API (2.5 Flash)** – Language model powering the email, planning, and summarising features, routed securely via Lovable's AI Gateway
 - **GitHub** – Version control, synced directly from Lovable
 
 ## Design
@@ -43,6 +43,10 @@ Flowdesk is designed to assist, not replace, human judgement:
 ## Architecture
 
 This project is front end only, as per the CAPACITI project brief. AI calls are handled through a secure edge function so no API key is exposed in the client.
+
+## Presentation
+
+A slide deck detailing the project, problem statement, and solution is included in this repository. You can download or view it here: [Flowdesk Presentation (PPTX)](./public/Flowdesk_CAPACITI_Presentation.pptx)
 
 ## Author
 
