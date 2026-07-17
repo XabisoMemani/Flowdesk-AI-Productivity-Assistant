@@ -81,17 +81,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Flowdesk is an AI-powered productivity assistant with a smart email generator, task planner, and research assistant for professionals and job seekers.",
+          "Draft polished emails, plan your day, and summarize any article — all with one AI workspace.",
       },
       { name: "author", content: "Flowdesk" },
       { property: "og:title", content: "Flowdesk — AI assistant for busy professionals" },
       {
         property: "og:description",
         content:
-          "Draft professional emails, plan your day, and summarize any article or job post — all in one clean AI workspace.",
+          "Draft polished emails, plan your day, and summarize any article — all with one AI workspace.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Flowdesk — AI assistant for busy professionals" },
+      { name: "twitter:description", content: "Draft polished emails, plan your day, and summarize any article — all with one AI workspace." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ced1c581-3a88-4851-8c49-5ced235522c2/id-preview-a6011f78--9f5a1545-4de6-4f8a-b859-ad49d2bc6267.lovable.app-1784268703158.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ced1c581-3a88-4851-8c49-5ced235522c2/id-preview-a6011f78--9f5a1545-4de6-4f8a-b859-ad49d2bc6267.lovable.app-1784268703158.png" },
     ],
     links: [
       {
